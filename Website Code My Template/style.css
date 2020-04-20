@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.division {
+  border: 2px solid black;
+  width: 350px;
+  margin: 40px;
+  margin-left: 70px;
+  padding: 30px;
+  padding-top: 20px;
+  contain: content;
+  text-align: center;
+}
+
+.div-image {
+  width: 280px;
+  right: 50px;
+  align-content: center;
+  padding-bottom: 20px;
+}
+
+#buy-btn {
+  padding: 5px 10px;
+  background-color: #0080ff;
+  color: seashell;
+  border: 1.2px solid #004d99;
+  border-radius: 5px;
+}
+
+#buy-btn:hover {
+    background-color: #0066cc;
+
+}
+
+.navbar {
+background-image: linear-gradient(to right, #80bfff, #1a8cff, #0066cc );
+}

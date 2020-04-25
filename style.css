@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .division {
+    float: left;
+    border: 2px solid black;
+    width: 280px;
+    margin: 20px;
+    padding: 30px;
+    padding-top: 20px;
+    contain: content;
+    text-align: center;
+  }
+
+  .div-image {
+    width: 200px;
+    right: 50px;
+    align-content: center;
+    padding-bottom: 20px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .division {
+    float: left;
+    border: 2px solid black;
+    width: 280px;
+    margin: 20px 10px;
+    padding: 30px;
+    padding-top: 20px;
+    contain: content;
+    text-align: center;
+  }
+
+  .div-image {
+    width: 200px;
+    right: 50px;
+    align-content: center;
+    padding-bottom: 20px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .division {
+    float: left;
+    border: 2px solid black;
+    width: 350px;
+    margin: 40px 10px;
+    padding: 30px;
+
+    padding-top: 20px;
+    contain: content;
+    text-align: center;
+  }
+
+  .div-image {
+    width: 280px;
+    right: 50px;
+    align-content: center;
+    padding-bottom: 20px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .division {
+    float: left;
+    border: 2px solid black;
+    width: 320px;
+    margin: 40px 10px;
+    padding: 30px;
+
+    padding-top: 20px;
+    contain: content;
+    text-align: center;
+  }
+
+  .div-image {
+    width: 250px;
+    right: 50px;
+    align-content: center;
+    padding-bottom: 20px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .division {
+    float: left;
+    border: 2px solid black;
+    width: 350px;
+    margin: 40px 20px;
+    padding: 30px;
+    padding-top: 20px;
+    contain: content;
+    text-align: center;
+  }
+
+  .div-image {
+    width: 280px;
+    right: 50px;
+    align-content: center;
+    padding-bottom: 20px;
+  }
+}
+
+#buy-btn {
+  padding: 5px 10px;
+  background-color: #0080ff;
+  color: seashell;
+  border: 1.2px solid #004d99;
+  border-radius: 5px;
+}
+
+#buy-btn:hover {
+  background-color: #0066cc;
+}
+
+.navbar {
+  background-image: linear-gradient(
+    to right,
+    #cce6ff,
+    #80bfff,
+    #1a8cff,
+    #0066cc
+  );
+}
+
+h1 {
+  text-align: center;
+  margin: 20px;
+}
+
+.header-text {
+  text-align: center;
+}
+
+.about-us {
+  background-color: #d6d6c2;
+  text-align: center;
+  padding: 40px;
+  clear: both;
+}
+
+.about-us i {
+  margin: 20px 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.about-us i:hover {
+  opacity: 0.7;
+}
+
+.about-us p {
+  margin: 30px 5px 0px 5px;
+}
+
+.icons {
+  font-size: 30px;
+}
+
+form {
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+button {
+
+  padding: 7px;
+  background-color: #47d147;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-size: large;
+
+}
+
+button:hover {
+
+  background-color: #2eb82e;
+}
+
+#division-wrapper {
+
+  text-align: center;
+}

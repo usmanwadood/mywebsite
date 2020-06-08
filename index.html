@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+      src="https://kit.fontawesome.com/ee7c783d98.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Home</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <meta name="author" content="Usman Wadood" />
+    <meta name="description" content="Goat and Poultry Farming." />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!-- <div class="dropdown">
+        <button onclick="dropDown()" class="dropbtn">
+          <i class="fas fa-bars" style="font-size: 30px; width: 40px;"></i>
+        </button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="index.html">Home</a>
+          <a href="order.html">Place Order</a>
+          <a href="#contact-us">Contact Us</a>
+          <a href="#shop" style="background-color: lightgray;"
+            >Shop <i class="fas fa-sort-down"></i
+          ></a>
+          <a href="#goat">Goats</a>
+          <a href="#chicken">Chicken</a>
+          <a href="#ducks">Ducks</a>
+          <a href="#rabbit">Rabbits</a>
+          <a href="#pet">Pet Section</a>
+          <a href="#poultry">Poultry Products</a>
+        </div> -->
+
+        <!--Top Nav ------------------>
+        <div class="topnav" id="myTopnav">
+          <a href="index.html" class="active">Home</a>
+          <a href="order.html">Place Order</a>
+          <a href="#contact-us">Contact Us</a>
+          <div class="dropdown">
+            <button class="dropbtn">Shop
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#goat">Goats</a>
+              <a href="#chicken">Chicken</a>
+              <a href="#ducks">Ducks</a>
+              <a href="#rabbit">Rabbits</a>
+              <a href="#pet">Pet Section</a>
+              <a href="#poultry">Poultry Products</a>
+            </div>
+          </div>
+          <a href="#about">About</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+
+
+        <!--Insert Company Logo HERE-->
+        <div class="logo">
+          <img src="logo.png" alt="Al Ahmed Farms" />
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div id="home">
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="pic.jpg" style="width: 100%;" />
+            <div class="text">Caption Text</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="pic.jpg" style="width: 100%;" />
+            <div class="text">Caption Two</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="pic.jpg" style="width: 100%;" />
+            <div class="text">Caption Three</div>
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+
+        <!-- The dots/circles -->
+        <div style="text-align: center;">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
+      <div id="shop">
+
+      <h2>Shop</h2>
+        <!-- Product Divisions -->
+        <div class="product-container">
+
+
+          <div class="product" id="goat">
+            <div class="product-desc">
+              <img src="pic.jpg" alt="pic" /><br />
+              <p>Name:</p>
+              <p>Category: <i>Goats</i></p>
+              <br />
+              <span
+                ><p class="price-tag">$$$$</p>
+                <p class="instock">In Stock</p></span
+              >
+            </div>
+            <button onclick="window.location='/animals/goat.html';"  id="buy-btn">More  <i class="fas fa-arrow-right"></i></button>
+          </div>
+
+          <div class="product" id="ducks">
+            <div class="product-desc">
+              <img src="pic.jpg" alt="pic" /><br />
+              <p>Name:</p>
+              <p>Category: <i>Ducks</i></p>
+              <br />
+              <span
+                ><p class="price-tag">$$$$</p>
+                <p class="instock">In Stock</p></span
+              >
+            </div>
+            <button onclick="window.location='/animals/ducks.html';" id="buy-btn">More  <i class="fas fa-arrow-right"></i></button>
+          </div>
+
+          <div class="product" id="rabbit">
+            <div class="product-desc">
+              <img src="pic.jpg" alt="pic" /><br />
+              <p>Name:</p>
+              <p>Category: <i>Rabbits</i></p>
+              <br />
+              <span
+                ><p class="price-tag">$$$$</p>
+                <p class="instock">In Stock</p></span
+              >
+            </div>
+            <button onclick="window.location='/animals/rabbit.html';" id="buy-btn">More  <i class="fas fa-arrow-right"></i></button>
+          </div>
+
+          <div class="product" id="chicken">
+            <div class="product-desc">
+              <img src="pic.jpg" alt="pic" /><br />
+              <p>Name:</p>
+              <p>Category: <i>Chicken</i></p>
+              <br />
+              <span
+                ><p class="price-tag">$$$$</p>
+                <p class="instock">In Stock</p></span
+              >
+            </div>
+            <button onclick="window.location='/animals/chicken.html';" id="buy-btn">More  <i class="fas fa-arrow-right"></i></button>
+          </div>
+
+          <div class="product" id="pet">
+            <div class="product-desc">
+              <img src="pic.jpg" alt="pic" /><br />
+              <p>Name:</p>
+              <p>Category: <i>Pets</i></p>
+              <br />
+              <span
+                ><p class="price-tag">$$$$</p>
+                <p class="instock">In Stock</p></span
+              >
+            </div>
+            <button onclick="window.location='/animals/pets.html';" id="buy-btn">More  <i class="fas fa-arrow-right"></i></button>
+          </div>
+
+          <div class="product" id="poultry">
+            <div class="product-desc">
+              <img src="pic.jpg" alt="pic" /><br />
+              <p>Name:</p>
+              <p>Category: <i>Poultry Products</i></p>
+              <br />
+              <span
+                ><p class="price-tag">$$$$</p>
+                <p class="instock">In Stock</p></span
+              >
+            </div>
+            <button onclick="window.location='/animals/poultry.html';" id="buy-btn">More  <i class="fas fa-arrow-right"></i></button>
+          </div>
+
+
+
+
+
+
+          
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div id="contact-us">
+        <h3>Contact Us</h3>
+        <div class="social-media-logos">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-facebook-messenger"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+
+      <div class="other-logos">
+        <p><i class="fas fa-phone"></i> Phone: 0333-1234567</p>
+        <p><i class="fab fa-whatsapp"></i> WhatsApp: 0333-1234567</p>
+        <p><i class="fas fa-envelope"></i> Email: usmanwadood41@gmail.com</p>
+      </div>
+
+      <div class="credits">
+        A Project Of Usman Wadood
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
